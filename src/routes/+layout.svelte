@@ -13,6 +13,8 @@
 	import '$lib/assets/teams__advantage_bg_2.jpg';
 	import '$lib/assets/teams__advantage_bg_3.jpg';
 	import '../app.css';
+	import Modal from '$lib/components/Modal.svelte';
+	let isModalOpen = false; // Локальное состояние для модалки
 </script>
 
 <svealte:head>
@@ -71,8 +73,13 @@
 			</a>
 			<a href="mailto:devkid-school123456@mail.ru" class="mail">devkid-school@mail.ru</a>
 		</div>
-		<button class="btn btn__head" id="testBtn">Попробовать бесплатно</button>
+		<button class="btn btn__head" id="testBtn" on:click={() => (isModalOpen = true)}
+			>Попробовать бесплатно</button
+		>
 	</div>
+
+	<Modal bind:isOpen={isModalOpen}></Modal>
+
 	<nav>
 		<a class="nav_link nav_link__active" href="#">Главная</a><a class="nav_link" href="#"
 			>Секция 1</a
