@@ -495,7 +495,7 @@ section {
 }
 
 .sign_up__section {
-	background-image: url(./img/sign_up_bg.jpg);
+	background-image: url($lib/assets/sign_up_bg.jpg);
 	border-radius: 16px;
 	position: relative;
 	z-index: 1;
@@ -744,7 +744,7 @@ section {
 	position: relative;
 	font-family: Montserrat;
 	margin-right: 17px;
-	background-image: url(./img/teachers__card_bottom_1.jpg);
+	background-image: url($lib/assets/teachers__card_bottom_1.jpg);
 	border-radius: 10px;
 	cursor: pointer;
 	transition: all 0.3s ease-in-out;
@@ -793,7 +793,7 @@ section {
 }
 
 .motivation_section_container {
-	background-image: url(./img/motivation_bg.jpg);
+	background-image: url($lib/assets/motivation_bg.jpg);
 	border-radius: 20px;
 	padding: 55px 167px 40px 167px;
 	position: relative;
@@ -876,15 +876,15 @@ section {
 }
 
 .teams__advantage_1 {
-	background-image: url(./img/teams__advantage_bg_1.jpg);
+	background-image: url($lib/assets/teams__advantage_bg_1.jpg);
 }
 
 .teams__advantage_2 {
-	background-image: url(./img/teams__advantage_bg_2.jpg);
+	background-image: url($lib/assets/teams__advantage_bg_2.jpg);
 }
 
 .teams__advantage_3 {
-	background-image: url(./img/teams__advantage_bg_3.jpg);
+	background-image: url($lib/assets/teams__advantage_bg_3.jpg);
 }
 
 .teams__advantage__header {
@@ -968,7 +968,7 @@ section {
 
 .promo_container {
 	padding: 62px 156px;
-	background-image: url(./img/promo_bg.jpg);
+	background-image: url($lib/assets/promo_bg.jpg);
 	text-align: center;
 	margin-bottom: 23px;
 }
