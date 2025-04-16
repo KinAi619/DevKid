@@ -73,7 +73,7 @@
 			</a>
 			<a href="mailto:devkid-school123456@mail.ru" class="mail">devkid-school@mail.ru</a>
 		</div>
-		<button class="btn btn__head" id="testBtn" on:click={() => (isModalOpen = true)}
+		<button class="btn btn__head" type="button" on:click={() => (isModalOpen = true)}
 			>Попробовать бесплатно</button
 		>
 	</div>
